@@ -13,6 +13,7 @@ _start:
     mov rdi, 0
     syscall
 
+;; hello: db "Hello World 1", 10
 hello: file "message.txt"
 hello_len = $-hello
 
